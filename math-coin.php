@@ -1,8 +1,9 @@
 <?php
 	/*
-	 * @author Astet (Andrew Galenko)
-	 * @version 1.0
-	 */
+	* GitHub: https://github.com/astet-gag/MathCoin-php
+	* @author Astet (Andrew Galenko)
+	* @version 1.0
+	*/
 	
 	class MathCoin {
 		private $url = "https://mathbattle.12kot3k.ru/public_api.php";
