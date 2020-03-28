@@ -42,7 +42,7 @@
 				'method' => 'send_score',
 				'to' => $toId,
 				'amount' => $sum
-			]);
+			])['success'];
 		}
 
 		public function txList($ltx){
