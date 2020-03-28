@@ -4,7 +4,7 @@
 	 * @version 1.0
 	 */
 	
-	class MathApi {
+	class MathCoin {
 		private $url = "https://mathbattle.12kot3k.ru/public_api.php";
 		private $key = '';
 		private $uid = '';
