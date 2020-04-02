@@ -1,4 +1,4 @@
-# MathCoin-php
+# PaperGame-php
  Библиотека для работы с Бумага API.
  https://vk.com/papergame_official
 
