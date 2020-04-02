@@ -1,12 +1,13 @@
 <?php
 	/*
-	* GitHub: https://github.com/astet-gag/MathCoin-php
-	* @author Astet (Andrew Galenko)
+	* Fork from: https://github.com/astet-gag/MathCoin-php
+	* GitHub: https://github.com/g00se/PaperGame-php
+	* @author Astet (Andrew Galenko) and @g00se (Mikhail)
 	* @version 1.0
 	*/
 	
-	class MathCoin {
-		private $url = "https://mathbattle.12kot3k.ru/public_api.php";
+	class PaperApi {
+		private $url = "https://paper.12kot3k.ru/api.php";
 		private $key = '';
 		private $uid = '';
 
@@ -53,7 +54,7 @@
 		}
 
 		public function txLink($sum){
-			return 'https://vk.com/app6995668#t'.$this->uid.'_'.$sum;
+			return 'https://m.vk.com/app7361871#t'.$this->uid.'_'.$sum;
 		}
 	}
 ?>
